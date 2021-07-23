@@ -7,6 +7,7 @@ import ReviewDetails from './pages/ReviewDetails';
 
 function App() {
   return (
+    <Router>
     <div className="App">
      <SiteHeader />
      <Switch>
@@ -22,6 +23,7 @@ function App() {
      
      </Switch>
     </div>
+    </Router>
   );
 }
 
